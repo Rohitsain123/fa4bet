@@ -8,6 +8,7 @@ import Slots from "./components/pages/home/Slots";
 import Partners from "./components/pages/home/Partners";
 import Fishing from "./components/pages/home/Fishing";
 import Casino from "./components/pages/home/Casino";
+import Offer from "./components/pages/home/Offer";
 
 function page() {
   return (
@@ -20,6 +21,7 @@ function page() {
         <Partners />
         <Casino />
         <Fishing />
+        <Offer />
         <Footer />
       </div>
     </>

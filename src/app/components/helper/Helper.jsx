@@ -120,57 +120,52 @@ export const fishingSlider = [
 ];
 export const offerCardData = [
   {
-    title: "offer Card",
-    cardData: [
-      {
-        title: "280% Deposit bonus",
-        para: "Deposit now, get 5× more! Claim your 280% bonus today!",
-        img: "/assetes/png/300$.png",
-        bgimg: "/assetes/png/bg-sky.png",
-      },
-      {
-        title: "bithday bonus",
-        para: "Of course! Here’s an even shorter version:",
-        img: "/assetes/png/gift.png",
-        bgimg: "/assetes/png/bg-orange.png",
-      },
-      {
-        title: "WELCOME TO FA4BET CASINO",
-        para: "Win big daily at FA4BET Casino today!",
-        img: "/assetes/png/casino-girl.png",
-        bgimg: "/assetes/png/bg-green.png",
-      },
-      {
-        title: "300% Deposit Bonus",
-        para: "Triple your deposit instantly with a 300% bonus!",
-        img: "/assetes/png/boy-girl.png",
-        bgimg: "/assetes/png/bg-black.png",
-      },
-      {
-        title: "special bonus",
-        para: "A bonus is a small reward that inspires and encourages.",
-        img: "/assetes/png/coins.png",
-        bgimg: "/assetes/png/bg-red.png",
-      },
-      {
-        title: "FRIEND REFERRAL",
-        para: "Refer your friends and earn exciting rewards today!",
-        img: "/assetes/png/daimond.png",
-        bgimg: "/assetes/png/bg-blue.png",
-      },
-      {
-        title: "CASH REWARDS FOR VIP",
-        para: "VIP members enjoy exclusive cash rewards every week!",
-        img: "/assetes/png/dollor.png",
-        bgimg: "/assetes/png/bg-yellow.png",
-      },
-      {
-        title: "HOW TO GET POINT ?",
-        para: "Play games, complete tasks, and earn points easily!  ",
-        img: "/assetes/png/winner.png",
-        bgimg: "/assetes/png/sky-blue.png",
-      },
-    ],
+    title: "280% Deposit bonus",
+    para: "Deposit now, get 5× more! Claim your 280% bonus today!",
+    img: "/assetes/png/300$.png",
+    bgimg: "/assetes/png/bg-sky.png",
+  },
+  {
+    title: "bithday bonus",
+    para: "Of course! Here’s an even shorter version:",
+    img: "/assetes/png/gift.png",
+    bgimg: "/assetes/png/bg-orange.png",
+  },
+  {
+    title: "WELCOME TO FA4BET CASINO",
+    para: "Win big daily at FA4BET Casino today!",
+    img: "/assetes/png/casino-girl.png",
+    bgimg: "/assetes/png/bg-green.png",
+  },
+  {
+    title: "300% Deposit Bonus",
+    para: "Triple your deposit instantly with a 300% bonus!",
+    img: "/assetes/png/boy-girl.png",
+    bgimg: "/assetes/png/bg-black.png",
+  },
+  {
+    title: "special bonus",
+    para: "A bonus is a small reward that inspires and encourages.",
+    img: "/assetes/png/coins.png",
+    bgimg: "/assetes/png/bg-red.png",
+  },
+  {
+    title: "FRIEND REFERRAL",
+    para: "Refer your friends and earn exciting rewards today!",
+    img: "/assetes/png/daimond.png",
+    bgimg: "/assetes/png/bg-blue.png",
+  },
+  {
+    title: "CASH REWARDS FOR VIP",
+    para: "VIP members enjoy exclusive cash rewards every week!",
+    img: "/assetes/png/dollor.png",
+    bgimg: "/assetes/png/bg-yellow.png",
+  },
+  {
+    title: "HOW TO GET POINT ?",
+    para: "Play games, complete tasks, and earn points easily!  ",
+    img: "/assetes/png/winner.png",
+    bgimg: "/assetes/png/sky-blue.png",
   },
 ];
 export const lotteryCard = [
