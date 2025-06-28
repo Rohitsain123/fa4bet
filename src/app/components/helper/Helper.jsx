@@ -1,6 +1,6 @@
 import { FacebookIcon, InstaIcon, LinkedIcon, YoutubeIcon } from "./Icon";
 
-export const slides = [
+export const gameSlider = [
   {
     src: "/assetes/png/gate.png",
   },
@@ -23,7 +23,7 @@ export const slides = [
     src: "/assetes/png/sugar.png",
   },
 ];
-export const slots = [
+export const slotsSlider = [
   {
     src: "/assetes/png/happy.png",
   },
@@ -43,7 +43,7 @@ export const slots = [
     src: "/assetes/png/crown.png",
   },
 ];
-export const partners = [
+export const partnersSlider = [
   {
     src: "/assetes/png/play.png",
   },
@@ -72,21 +72,33 @@ export const partners = [
     src: "/assetes/png/fc.png",
   },
 ];
-export const casino = [
+export const casinoSlider = [
   {
     src: "/assetes/png/girl.png",
+    para: "Danielle",
+    para2: "214/5000",
+    para3: "RM1-RM15000 ",
   },
   {
     src: "/assetes/png/casino.png",
+    para: "Daneli",
+    para2: "214/5000",
+    para3: "RM1-RM15000 ",
   },
   {
-    src: "/assetes/png/sapceman.png",
+    src: "/assetes/png/spaceman.png",
+    para: "spaceman",
+    para2: "214/5000",
+    para3: "RM1-RM15000 ",
   },
   {
     src: "/assetes/png/casino.png",
+    para: "Daneli",
+    para2: "214/5000",
+    para3: "RM1-RM15000 ",
   },
 ];
-export const fishingData = [
+export const fishingSlider = [
   {
     src: "/assetes/png/monkey.png",
   },
