@@ -5,7 +5,15 @@ import Joinbtn from "./Joinbtn";
 import { ArrowIcon } from "../helper/Icon";
 import Image from "next/image";
 
-function Commonhero({ title, sapntitle, innertitle, para, btn, heroimg }) {
+function Commonhero({
+  title,
+  sapntitle,
+  innertitle,
+  para,
+  btn,
+  heroimg,
+  imgClass,
+}) {
   return (
     <>
       <div className="max-w-[1295px] px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[50px] mx-auto">
@@ -19,7 +27,7 @@ function Commonhero({ title, sapntitle, innertitle, para, btn, heroimg }) {
             />
             <Para
               className={
-                "mt-[10px] md:mt-[20px] lg:mt-[30px] sm:max-w-[617px] text-[10px] sm:text-sm md:text-base lg:text-xl line-clamp-3 lg:line-clamp-4 max-w-[174px] "
+                "mt-[10px] md:mt-[20px] lg:mt-[30px] sm:max-w-[617px] text-[10px] sm:text-sm md:text-base lg:text-lg line-clamp-3 lg:line-clamp-4 max-w-[174px] "
               }
               title={para}
             />
@@ -28,7 +36,9 @@ function Commonhero({ title, sapntitle, innertitle, para, btn, heroimg }) {
               <ArrowIcon />
             </div>
           </div>{" "}
-          <div className=" max-w-[172px] sm:max-w-[250px] md:max-w-[320px] lg:max-w-[400px] xl:max-w-[500px]">
+          <div
+            className={`max-w-[172px] sm:max-w-[250px] md:max-w-[320px] lg:max-w-[400px] xl:max-w-[500px] ${imgClass}`}
+          >
             <Image src={heroimg} width={500} height={500} alt={"hero"} />
           </div>
         </div>

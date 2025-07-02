@@ -9,6 +9,7 @@ import Partners from "./components/pages/home/Partners";
 import Fishing from "./components/pages/home/Fishing";
 import Casino from "./components/pages/home/Casino";
 import Offer from "./components/pages/home/Offer";
+import Bonus from "./components/pages/home/Bonus";
 
 function page() {
   return (
@@ -22,6 +23,7 @@ function page() {
         <Casino />
         <Fishing />
         <Offer />
+        <Bonus />
         <Footer />
       </div>
     </>
